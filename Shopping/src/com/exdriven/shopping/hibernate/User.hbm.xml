@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="com.exdriven.shopping.User" table="SHOPPING_USER">
+        <id name="id" column="SHOPPING_USER_ID">
+            <generator class="native"/>
+        </id>
+        <property name="firstname"/>
+        <property name="username"/>
+        <property name="password"/>
+        <list name="orders" cascade="save-update">
+        	<key column="user" />
+        	<list-index column="order_index"/>
+			<one-to-many class="com.exdriven.shopping.Order" />
+        </list>
+        <many-to-one name="basket" cascade="save-update" unique="true"/>
+    </class>
+</hibernate-mapping>

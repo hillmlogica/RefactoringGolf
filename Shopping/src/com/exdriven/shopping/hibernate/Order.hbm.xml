@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.exdriven.shopping.Order" table="SHOPPING_ORDER">
+		<id name="id" column="ORDER_ID">
+			<generator class="native" />
+		</id>
+		<property name="timeOfOrder" type="org.joda.time.contrib.hibernate.PersistentDateTime" />
+        <list name="lines" cascade="all-delete-orphan" >
+            <key column="order_id"/>
+            <list-index column="line_index"/>
+			<one-to-many class="com.exdriven.shopping.OrderLine" />
+        </list>
+	</class>
+
+	<class name="com.exdriven.shopping.OrderLine" table="SHOPPING_ORDER_LINE">
+		<id name="id" column="ORDER_LINE_ID">
+			<generator class="native" />
+		</id>
+		<property name="quantity" />
+		<many-to-one name="product" cascade="save-update"/>
+	</class>
+</hibernate-mapping>

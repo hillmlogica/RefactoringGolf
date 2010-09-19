@@ -1,0 +1,39 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="shop" extends="struts-default">
+		<default-action-ref name="home" />
+		
+		<action name="home" class="com.exdriven.shopping.struts.HomeAction">
+            <result type="freemarker">/home.ftl</result>
+        </action>
+
+		<action name="login" class="com.exdriven.shopping.struts.LoginAction">
+            <result name="input" type="freemarker">/home.ftl</result>
+            <result type="redirect">/home</result>
+        </action>
+
+		<action name="register" class="com.exdriven.shopping.struts.RegisterAction">
+            <result name="input" type="freemarker">/register.ftl</result>
+            <result type="redirect">/home</result>
+        </action>
+
+		<action name="basket" class="com.exdriven.shopping.struts.BasketAction">
+            <result type="redirect">/home</result>
+        </action>
+
+		<action name="logout" class="com.exdriven.shopping.struts.LogoutAction">
+            <result type="redirect">/home</result>
+        </action>
+
+		<action name="product" class="com.exdriven.shopping.struts.ProductAction">
+            <result type="redirect">/home</result>
+        </action>
+
+		<action name="order" class="com.exdriven.shopping.struts.OrderAction">
+            <result type="redirect">/home</result>
+        </action>
+	</package>
+</struts>

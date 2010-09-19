@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AuctionRefactored/AuctionRefactored.iml" filepath="$PROJECT_DIR$/AuctionRefactored/AuctionRefactored.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuctionStart/AuctionStart.iml" filepath="$PROJECT_DIR$/AuctionStart/AuctionStart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AuctionWithDsl/AuctionWithDsl.iml" filepath="$PROJECT_DIR$/AuctionWithDsl/AuctionWithDsl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BusinessDay/BusinessDay.iml" filepath="$PROJECT_DIR$/BusinessDay/BusinessDay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CommandLineParser/CommandLineParser.iml" filepath="$PROJECT_DIR$/CommandLineParser/CommandLineParser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RefactoringGolf.iml" filepath="$PROJECT_DIR$/RefactoringGolf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shopping/Shopping.iml" filepath="$PROJECT_DIR$/Shopping/Shopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sudoku/Sudoku.iml" filepath="$PROJECT_DIR$/Sudoku/Sudoku.iml" />
+    </modules>
+  </component>
+</project>
+

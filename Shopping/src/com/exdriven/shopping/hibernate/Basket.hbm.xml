@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="com.exdriven.shopping.Basket" table="BASKET">
+        <id name="id" column="BASKET_ID">
+            <generator class="native"/>
+        </id>
+        <set name="entries" cascade="all-delete-orphan" >
+            <key column="basket_id"/>
+			<one-to-many class="com.exdriven.shopping.BasketEntry" />
+        </set>
+    </class>
+
+    <class name="com.exdriven.shopping.BasketEntry" table="BASKET_ENTRY">
+        <id name="id" column="BASKET_ENTRY_ID">
+            <generator class="native"/>
+        </id>
+		<many-to-one name="product" />
+    </class>
+</hibernate-mapping>
