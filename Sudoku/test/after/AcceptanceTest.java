@@ -1,5 +1,6 @@
-import junit.framework.Assert;
+package after;
 
+import junit.framework.Assert;
 import org.junit.Test;
 
 public class AcceptanceTest {
@@ -25,7 +26,7 @@ public class AcceptanceTest {
 		int[][] solutionGrid = Sudoku.parseProblem(solution);
 		int[][] problemGrid = Sudoku.parseProblem(problem);
 		int[][] actualSolution = Sudoku.solve(problemGrid);
-		Assert.assertEquals(new GridAgain(solutionGrid).prettyPrint(), new GridAgain(actualSolution).prettyPrint());
+		Assert.assertEquals(Sudoku.prettyPrint(solutionGrid), Sudoku.prettyPrint(actualSolution));
 	}
 	
 }

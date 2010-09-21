@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="a9f93698-1de3-4754-9220-ac11cf5407c1" name="Default" comment="" />
+    <list default="true" readonly="true" id="a9f93698-1de3-4754-9220-ac11cf5407c1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AuctionStart/.classpath" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommandLineParser/src/com/objectmentor/utilities/args/Args.java" afterPath="$PROJECT_DIR$/CommandLineParser/src/com/objectmentor/utilities/args/Args.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sudoku/test/AcceptanceTest.java" afterPath="$PROJECT_DIR$/Sudoku/test/AcceptanceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CommandLineParser/src/com/objectmentor/utilities/args/ArgsWithoutSomeField.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/AuctionStart/.project" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sudoku/src/after/Grid.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sudoku/src/GridAgain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/struts/RegisterAction.java" afterPath="$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/struts/RegisterAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sudoku/src/Sudoku.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sudoku/src/after/Sudoku.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sudoku/test/after/SudokuExamples.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sudoku/test/after/AcceptanceTest.java" />
+    </list>
     <ignored path="RefactoringGolf.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,37 +75,28 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ArgsTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CommandLineParser/test/com/objectmentor/utilities/args/ArgsTest.java">
+      <file leaf-file-name="Sudoku.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Sudoku/src/Sudoku.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
+            <state line="111" column="10" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.83359015">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopping/test.properties">
+      <file leaf-file-name="Sudoku.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sudoku/src/Sudoku.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="73" column="0" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.script" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopping/test.script">
+      <file leaf-file-name="Args.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommandLineParser/src/com/objectmentor/utilities/args/Args.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShoppingServerLauncher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/bootstrap/ShoppingServerLauncher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+            <state line="36" column="44" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,55 +104,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EndToEndTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopping/test/com/exdriven/shopping/EndToEndTest.java">
+      <file leaf-file-name="GridAgain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sudoku/src/GridAgain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="41" selection-start="2717" selection-end="2717" vertical-scroll-proportion="0.0">
+            <state line="49" column="30" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingWorld.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopping/test/com/exdriven/shopping/ShoppingWorld.java">
+      <file leaf-file-name="AcceptanceTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sudoku/test/AcceptanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="45" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
+            <state line="27" column="60" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShoppingServer.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/bootstrap/ShoppingServer.java">
+      <file leaf-file-name="Grid.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sudoku/src/after/Grid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="19" selection-start="416" selection-end="416" vertical-scroll-proportion="0.50789475">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="struts.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopping/webapp/WEB-INF/classes/struts.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopping/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shopper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shopping/test/com/exdriven/shopping/Shopper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+            <state line="5" column="11" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,6 +148,19 @@
         <option value="$PROJECT_DIR$/CheckStyle/src/testinputs/com/puppycrawl/tools/checkstyle/grammars/InputGrammar.java" />
         <option value="$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/bootstrap/ShoppingServerLauncher.java" />
         <option value="$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/bootstrap/ShoppingServer.java" />
+        <option value="$PROJECT_DIR$/CommandLineParser/src/com/objectmentor/utilities/args/ArgsWithoutSomeField.java" />
+        <option value="$PROJECT_DIR$/Shopping/test/com/exdriven/shopping/ProductBuilder.java" />
+        <option value="$PROJECT_DIR$/Sudoku/src/com/objectmentor/utilities/args/SudokuAfterGridIntro.java" />
+        <option value="$PROJECT_DIR$/Sudoku/src/after/Grid.java" />
+        <option value="$PROJECT_DIR$/Sudoku/src/after/SudokuExamples.java" />
+        <option value="$PROJECT_DIR$/Sudoku/test/after/SudokuExamples.java" />
+        <option value="$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/struts/RegisterAction.java" />
+        <option value="$PROJECT_DIR$/CommandLineParser/src/com/objectmentor/utilities/args/Args.java" />
+        <option value="$PROJECT_DIR$/Sudoku/src/Grid.java" />
+        <option value="$PROJECT_DIR$/Sudoku/test/AcceptanceTest.java" />
+        <option value="$PROJECT_DIR$/Sudoku/src/GridAgain.java" />
+        <option value="$PROJECT_DIR$/Sudoku/src/Sudoku.txt" />
+        <option value="$PROJECT_DIR$/Sudoku/src/Sudoku.java" />
       </list>
     </option>
   </component>
@@ -228,6 +220,92 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RefactoringGolf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RefactoringGolf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sudoku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RefactoringGolf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RefactoringGolf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sudoku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RefactoringGolf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RefactoringGolf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sudoku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RefactoringGolf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RefactoringGolf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandLineParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RefactoringGolf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RefactoringGolf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandLineParser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="args" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -248,68 +326,31 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.objectmentor.utilities.args" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Sudoku/test/after" />
+      <recent name="$PROJECT_DIR$/Sudoku/src/after" />
+    </key>
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="GridAgain" />
+      <recent name="Grid" />
+      <recent name="Sudoku" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All Tests">
-    <configuration default="false" name="com.objectmentor.utilities.args" type="TestNG" factoryName="TestNG" temporary="true">
-      <extension name="snapshooter" />
-      <module name="CommandLineParser" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.objectmentor.utilities.args" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArgsExceptionTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="snapshooter" />
-      <module name="CommandLineParser" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.objectmentor.utilities.args" />
-      <option name="MAIN_CLASS_NAME" value="com.objectmentor.utilities.args.ArgsExceptionTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AcceptanceTest">
     <configuration default="false" name="ArgsTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="snapshooter" />
       <module name="CommandLineParser" />
@@ -363,6 +404,50 @@
       <option name="MAIN_CLASS_NAME" value="com.exdriven.shopping.EndToEndTest" />
       <option name="METHOD_NAME" value="aNewUserRegistersThemselves" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AcceptanceTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="snapshooter" />
+      <module name="Sudoku" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AcceptanceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="com.objectmentor.utilities.args in CommandLineParser" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="snapshooter" />
+      <module name="CommandLineParser" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.objectmentor.utilities.args" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -508,11 +593,11 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All Tests" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.com.objectmentor.utilities.args" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ArgsExceptionTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ArgsTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.com.exdriven.shopping in Shopping" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.EndToEndTest.aNewUserRegistersThemselves" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ArgsTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.com.exdriven.shopping in Shopping" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.EndToEndTest.aNewUserRegistersThemselves" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AcceptanceTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.com.objectmentor.utilities.args in CommandLineParser" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -538,27 +623,27 @@
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="22" width="1420" height="860" extended-state="0" />
+    <frame x="10" y="22" width="1900" height="1164" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.57972974" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4108108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.184765" sideWeight="0.6637931" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4099617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -596,116 +681,118 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AuctionRefactored/src/com/chatley/examples/bidders/LimitBidStrategy.java">
+    <entry file="file://$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/struts/BasketAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AuctionRefactored/src/com/chatley/examples/bidders/IncrementalBidStrategy.java">
+    <entry file="file://$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/struts/HomeAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+        <state line="14" column="13" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sudoku/test/AcceptanceTest.java">
+    <entry file="file://$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/struts/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+        <state line="10" column="13" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sudoku/src/Sudoku.java">
+    <entry file="file://$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/struts/LogoutAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommandLineParser/test/com/objectmentor/utilities/args/AcceptanceTest.java">
+    <entry file="file://$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/struts/OrderAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+        <state line="20" column="13" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommandLineParser/test/com/objectmentor/utilities/args/ArgsExceptionTest.java">
+    <entry file="file://$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/struts/ProductAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+        <state line="6" column="13" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommandLineParser/test/com/objectmentor/utilities/args/ArgsTest.java">
+    <entry file="file://$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/struts/RegisterAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopping/test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopping/test.script">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/bootstrap/ShoppingServerLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+        <state line="24" column="21" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shopping/test/com/exdriven/shopping/Shopper.java">
+    <entry file="file://$PROJECT_DIR$/BusinessDay/test/com/exdriven/date/BusinessDayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shopping/test/com/exdriven/shopping/EndToEndTest.java">
+    <entry file="file://$PROJECT_DIR$/AuctionStart/test/com/chatley/examples/auction/EnglishAuctionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="41" selection-start="2717" selection-end="2717" vertical-scroll-proportion="0.0">
+        <state line="29" column="23" selection-start="897" selection-end="897" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shopping/test/com/exdriven/shopping/ShoppingWorld.java">
+    <entry file="file://$PROJECT_DIR$/CommandLineParser/src/com/objectmentor/utilities/args/StringArgumentMarshaler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="45" selection-start="973" selection-end="973" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shopping/webapp/WEB-INF/classes/struts.xml">
+    <entry file="file://$PROJECT_DIR$/CommandLineParser/src/com/objectmentor/utilities/args/Args.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="36" column="44" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sudoku/src/after/Grid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="11" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shopping/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/Sudoku/test/AcceptanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="27" column="60" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shopping/src/com/exdriven/shopping/bootstrap/ShoppingServer.java">
+    <entry file="file://$PROJECT_DIR$/Sudoku/src/GridAgain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="416" selection-end="416" vertical-scroll-proportion="0.50789475">
+        <state line="49" column="30" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sudoku/src/Sudoku.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sudoku/src/Sudoku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="10" selection-start="2925" selection-end="2925" vertical-scroll-proportion="0.83359015">
           <folding />
         </state>
       </provider>

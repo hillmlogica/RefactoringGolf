@@ -20,16 +20,10 @@ public class RegisterAction extends BaseShoppingAction {
 	
 	@Override
 	public String execute() {
-		if (StringUtils.isBlank(firstname)) {
-			addActionError("Please enter a firstname");
-		}
-		if (StringUtils.isBlank(username)) {
-			addActionError("Please enter a username");
-		}
-		if (StringUtils.isBlank(password)) {
-			addActionError("Please enter a password");
-		}
-		if (userRepository.findUserByUsername(username) != null) {
+        poo(firstname, "firstname");
+        poo(username, "username");
+        poo(password, "password");
+        if (userRepository.findUserByUsername(username) != null) {
 			addActionError("Please choose a different username");
 		}
 		if (hasErrors()) {
@@ -45,7 +39,13 @@ public class RegisterAction extends BaseShoppingAction {
 		return SUCCESS;
 	}
 
-	public String getUsername() {
+    private void poo(String s, String s2) {
+        if (StringUtils.isBlank(s)) {
+            addActionError("Please enter a "+s2);
+		}
+    }
+
+    public String getUsername() {
 		return username;
 	}
 

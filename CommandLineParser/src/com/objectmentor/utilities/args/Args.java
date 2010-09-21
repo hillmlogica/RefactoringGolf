@@ -7,7 +7,6 @@ import java.util.*;
 public class Args {
   private Map<Character, ArgumentMarshaler> marshalers;
   private Set<Character> argsFound;
-  private ListIterator<String> currentArgument;
 
   public Args(String schema, String[] args) throws ArgsException {
     marshalers = new HashMap<Character, ArgumentMarshaler>();
@@ -47,10 +46,10 @@ public class Args {
   }
 
   private void parseArgumentStrings(List<String> argsList) throws ArgsException {
-    for (currentArgument = argsList.listIterator(); currentArgument.hasNext();) {
+    for (ListIterator<String> currentArgument = argsList.listIterator(); currentArgument.hasNext();) {
       String argString = currentArgument.next();
       if (argString.startsWith("-")) {
-        parseArgumentCharacters(argString.substring(1));
+        parseArgumentCharacters(argString.substring(1), currentArgument);
       } else {
         currentArgument.previous();
         break;
@@ -58,12 +57,12 @@ public class Args {
     }
   }
 
-  private void parseArgumentCharacters(String argChars) throws ArgsException {
+  private void parseArgumentCharacters(String argChars, ListIterator<String> currentArgument) throws ArgsException {
     for (int i = 0; i < argChars.length(); i++)
-      parseArgumentCharacter(argChars.charAt(i));
+      parseArgumentCharacter(argChars.charAt(i), currentArgument);
   }
 
-  private void parseArgumentCharacter(char argChar) throws ArgsException {
+  private void parseArgumentCharacter(char argChar, ListIterator<String> currentArgument) throws ArgsException {
     ArgumentMarshaler m = marshalers.get(argChar);
     if (m == null) {
       throw new ArgsException(UNEXPECTED_ARGUMENT, argChar, null);
@@ -82,11 +81,7 @@ public class Args {
     return argsFound.contains(arg);
   }
 
-  public int nextArgument() {
-    return currentArgument.nextIndex();
-  }
-
-  public boolean getBoolean(char arg) {
+    public boolean getBoolean(char arg) {
     return BooleanArgumentMarshaler.getValue(marshalers.get(arg));
   }
 
